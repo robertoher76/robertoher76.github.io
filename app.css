@@ -1,0 +1,354 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #0c2444;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16.5px;
+    overflow-x: hidden;
+}
+
+body.mobile {
+    overflow-y: hidden;
+}
+
+main {
+    margin: 5em 0 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #0a2540;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.margin-auto {
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+header {
+    background-color: white;
+    left: 0%;
+    padding: 1.5em 0 1em;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 199;
+}
+
+header.active {
+    overflow-x: hidden;
+}
+
+header span.logo {
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+header span.logo a {
+    color: #0a2540;
+    transition: all 1s;
+}
+
+header span.logo a:hover {
+    color: #7b32fa;
+}
+
+header .menu-mobile span.logo {
+    font-size: 1.3em;
+    line-height: 1.2;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    header .menu-mobile span.logo {
+        font-size: 1em;
+    }
+}
+
+header .menu-mobile span.logo a {
+    color: white;
+}
+
+header .menu-mobile span.logo a:hover {
+    color: white;
+}
+
+header .menu-icon {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 200;
+}
+
+header .menu-icon .line-menu {
+    background-color: #0a2540;
+    height: 2.5px;
+    margin: 8px 0;
+    transition: 0.5s;
+    width: 45px;
+}
+
+header .menu-icon .line-menu:first-child {
+    height: 2px;
+}
+
+header .menu-icon .line-menu:last-child {
+    height: 2px;
+}
+
+header.active .menu-icon .line-menu {
+    background-color: white !important;
+}
+
+header.active .menu-icon .line-menu:first-child {
+    -webkit-transform: rotate(-45deg) translate(-5px, 7px);
+    transform: rotate(-45deg) translate(-5px, 7px);
+}
+
+header.active .menu-icon .line-menu:nth-child(2) {
+    opacity: 0;
+}
+
+header.active .menu-icon .line-menu:last-child {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+
+header .menu-mobile {
+    background-color: #0a2540;
+    display: none;
+    left: 0;
+    height: 100%;
+    min-height: 100vh;
+    padding: 0 0 5em;
+    position: fixed;
+    overflow-y: scroll;
+    top: 0;
+    width: 100vw;
+    z-index: 199;
+}
+
+header .menu-mobile .mobile-container {
+    padding: 1em 0;
+}
+
+header .menu-mobile .mobile-container:first-child {
+    margin: 10em 0 0;
+}
+
+header .menu-mobile .mobile-container:nth-child(2) {
+    margin: 3em 0 0;
+}
+
+header .menu-mobile ul li {
+    margin: 0 0 2.5em;
+}
+
+header .menu-mobile ul.menu a {
+    align-items: center;
+    color: white;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+header .menu-mobile ul.menu span {
+    justify-content: center;
+}
+
+header .menu-mobile ul.menu span a,
+header .menu-mobile ul.menu span svg {
+    transition: all 1s;
+}
+
+.primary-menu-item:hover a,
+.primary-menu-item:hover svg {
+    color: #9c64fc !important;
+    fill: #9c64fc;
+}
+
+header .menu-mobile span.menu-item.selected a,
+header .menu-mobile span.menu-item.selected svg {
+    color: #9c64fc;
+    fill: #9c64fc;
+}
+
+.secondary-menu-item:hover a,
+.secondary-menu-item:hover svg {
+    color: #14ece4 !important;
+    fill: #14ece4;
+}
+
+header .menu-mobile ul li .ejercicio {
+    margin: 1em 0 0;
+}
+
+header .menu-mobile ul li .ejercicios {
+    display: none;
+}
+
+.discusiones {
+    margin: 2em 0;
+    padding: 2em 0;
+}
+
+.discusion {
+    margin: 2em 0;
+}
+
+.primary-box {
+    align-items: center;
+    background-color: #9c64fc;
+    border: 1px solid #0a254021;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75em 1em;
+}
+
+.primary-box svg {
+    transition: all 1s;
+}
+
+.primary-box.active svg {
+    transition: all 1s;
+    transform: rotate(180deg);
+}
+
+.primary-box h2,
+.primary-box svg {
+    color: white;
+    fill: white;
+}
+
+span {
+    align-items: center;
+    display: flex;
+}
+
+.secondary-box {
+    background-color: white;
+    display: none;
+    padding: 2em 0;
+}
+
+.secondary-box ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
+
+svg {
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #9c64fc;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    padding: .5em 1.5em;
+    transition: all .5s;
+}
+
+.btn:hover {
+    background-color: #7b32fa;
+    color: white;
+}
+
+footer {
+    padding: 2em 0;
+}
+
+
+/*
+#0c2444
+#6f6ed2
+#9c64fc
+#14ece4
+*/
