@@ -1,0 +1,202 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16.5px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+h2.titulo {
+    font-size: 3em;
+    margin: 0 0 1em;
+}
+
+h3.subtitulo {
+    font-size: 1.5em;
+}
+
+img {
+    max-width: 100%;
+}
+
+img.vuelta {
+    transform: rotate(180deg);
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+a.btn {
+    text-decoration: none;
+}
+
+a.btn.btn-red {
+    background-color: #c00;
+    color: white;
+    font-weight: 500;
+    padding: 0.5em 2em;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+header {
+    padding: 1em 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+header .logo {
+    margin: 0 0 0.5em;
+    text-align: center;
+    width: 100%;
+}
+
+header .equipos {
+    background-color: #c00;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+header .equipos ul {
+    display: inline-flex;
+}
+
+header .equipos ul li {
+    margin: 0 1.5em;
+}
+
+header .equipos ul li a {
+    color: #ffc400;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+header .equipos ul li a:hover {
+    color: white;
+}
+
+header .logo img {
+    max-width: 12em;
+}
+
+section.principal {
+    margin: 2em 0 4em;
+}
+
+section#banner {
+    margin: 0;
+    padding: 0;
+}
+
+section#banner img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.news {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    position: relative;
+    margin: 1em 0 2em;
+    width: 48%;
+}
+
+.card.sm-card {
+    margin: 1em 0;
+    width: 20%;
+}
+
+.card span {
+    color: #c00;
+    font-weight: 800;
+}
+
+.card h3 {
+    margin: 0 0 0.5em;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .card-content {
+    padding: 0 0 4em;
+}
+
+.card .card-footer a.btn.btn-red {
+    position: absolute;
+    bottom: 0%;
+}
+
+@media screen and (max-width: 1023px) {
+    .container {
+        max-width: 90%;
+    }
+    h2.titulo {
+        font-size: 2em;
+    }
+    .card {
+        width: 100%;
+    }
+    .card.sm-card {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 95%;
+    }
+    header .logo img {
+        max-width: 8em;
+    }
+    h2.titulo {
+        font-size: 1.2em;
+    }
+    h3.subtitulo {
+        font-size: 1.1em;
+    }
+    .card.sm-card {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .card.sm-card {
+        width: 100%;
+    }
+}
