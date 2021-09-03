@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>El Salvador | Centroamerica</title>
+
+    <!-- ESTILOS DEL MENU Y LA PAGINA PRINCIPAL (HOME/INICIO)-->
+    <link rel="stylesheet" href="../../style.css">
+
+    <!-- ESTILOS PRINCIPAL DE LA PAGINA -->
+    <link rel="stylesheet" href="../style2.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Jquery-->
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+    <!-- FUNCIONALIDAD MENU -->
+    <script src="../../app.js"></script>
+</head>
+
+<body>
+    <header class="">
+        <div class="container menu-desktop">
+            <div class="row space-between align-item-center position-relative">
+                <span class="logo">                    
+                    <a href="https://robertoher76.github.io/">
+                        Lenguajes
+                        <br>
+                        Interpretados
+                        <br>
+                        en el Cliente
+                    </a>
+                </span>
+                <div class="menu-icon">
+                    <div class="line-menu"></div>
+                    <div class="line-menu"></div>
+                    <div class="line-menu"></div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-mobile">
+            <div class="mobile-container">
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <span class="primary-menu-item">
+                                <a href="https://robertoher76.github.io/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                        <path d="M12 6.453l9 8.375v9.172h-6v-6h-6v6h-6v-9.172l9-8.375zm12 5.695l-12-11.148-12 11.133 1.361 1.465 10.639-9.868 10.639 9.883 1.361-1.465z"/>
+                                    </svg>
+                                    &nbsp;
+                                    Inicio
+                                </a>
+                            </span>
+                        </li>
+                        <li>
+                            <div class="practica">
+                                <span class="menu-item primary-menu-item">                                    
+                                    <a href="JavaScript:void(0);">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="36" height="36" viewBox="0 0 26 26">
+                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-8 10.199l-3.64 1.801 3.64 1.796v2.204l-6-2.935v-2.131l6-2.934v2.199zm8 2.866l-6 2.935v-2.204l3.64-1.796-3.64-1.801v-2.199l6 2.935v2.13z"/>
+                                        </svg>
+                                        &nbsp;
+                                        Practica #1: HTML
+                                    </a>                              
+                                </span>
+                                <div class="ejercicios">
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/programa-fav.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;
+                                                Programa Favorito
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/el-salvador.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;
+                                                Centroamérica
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="practica">
+                                <span class="menu-item primary-menu-item">                                    
+                                    <a href="JavaScript:void(0);">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="36" height="36" viewBox="0 0 26 26">
+                                            <path d="M23 10.826v2.349c-1.562 0-3 1.312-3 2.857 0 2.181 1.281 5.968-6 5.968v-2.002c4.917 0 3.966-1.6 3.966-3.967 0-2.094 1.211-3.5 2.278-4.031-1.067-.531-2.278-1.438-2.278-3.312 0-2.372.94-4.692-3.966-4.686v-2.002c7.285 0 6 4.506 6 6.688 0 1.544 1.438 2.138 3 2.138zm-19-2.138c0-2.182-1.285-6.688 6-6.688v2.002c-4.906-.007-3.966 2.313-3.966 4.686 0 1.875-1.211 2.781-2.278 3.312 1.067.531 2.278 1.938 2.278 4.031 0 2.367-.951 3.967 3.966 3.967v2.002c-7.281 0-6-3.787-6-5.969 0-1.545-1.438-2.857-3-2.857v-2.349c1.562.001 3-.593 3-2.137z"/>
+                                        </svg>
+                                        &nbsp;
+                                        Practica #2: CSS
+                                    </a>                              
+                                </span>
+                                <div class="ejercicios">
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/programa-fav-con-css.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;
+                                                Programa Favorito con CSS
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/el-salvador-con-css.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;
+                                                Centroamérica con CSS
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/biografia.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;                                        
+                                                Biografía con CSS
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main role="main">
+        <section id="navegacion-entre-paises">
+            <div class="container">
+                <span class="logo">Países Centroamericanos</span>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="https://robertoher76.github.io/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                </svg>&nbsp;Inicio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/el-salvador-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                </svg>&nbsp;El Salvador
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/guatemala-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                </svg>&nbsp;Guatemala
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/honduras-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                            </svg>&nbsp;Honduras
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/nicaragua-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                </svg>&nbsp;Nicaragua
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/costa-rica-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                            </svg>&nbsp;Costa Rica
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <article class="container">
+            <h1>El Salvador</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/1024px-Flag_of_El_Salvador.svg.png" alt="bandera-de-el-salvador" style="width: 25%;">
+
+            <section class="introduction">
+                <h2>Introducción</h2>
+                <p>
+                    <strong>El Salvador</strong>, oficialmente <strong>República de El Salvador</strong>, es un país soberano de América Central ubicado en el litoral del océano Pacífico con una extensión territorial de 21 041 km². En el año 2021 contaba
+                    con una población estimada en 6 325 827 habitantes según una estimación realizada por la Dirección General de Estadísticas y Censos en compañía de la CEPAL,​ por su densidad demográfica aproximada de 300.00 hab./km² es el país más
+                    densamente poblado del continente americano, sin incluir algunas islas en el mar Caribe. Su clima es cálido tropical pero debido al contraste geográfico el clima puede variar. El Salvador limita con Guatemala al oeste y con Honduras
+                    al norte y al este, al sureste el golfo de Fonseca lo separa de Nicaragua, y flanqueado al sur por el océano Pacífico. Su territorio está organizado en 14 departamentos, 35 distritos y 262 municipios. La ciudad de San Salvador es la
+                    capital del país; su área metropolitana incluye 14 municipalidades cercanas, y concentra la actividad política y económica de la república. Las ciudades de San Miguel y Santa Ana son otros centros importantes del país.
+                </p>
+            </section>
+            <section class="historia">
+                <h2>Historia</h2>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Coat_of_arms_of_El_Salvador.svg/800px-Coat_of_arms_of_El_Salvador.svg.png" alt="escudo-de-el-salvador" style="width: 25%;">
+                <p>
+                    El territorio salvadoreño forma parte del área de Mesoamérica, y se encuentra ubicado en una región que sirvió de paso de objetos e ideas a través del tiempo. Las primeras evidencias culturales en El Salvador se remontan a ocho mil años, justamente en
+                    el período arcaico (8000 a 1500 a. C.), época de grandes migraciones a diversas zonas mesoamericanas, una de ellas en la costa del Pacífico del país. Entre el período preclásico temprano (1500—900 a. C.) y medio (900—500~400 a. C.),
+                    se asentaron grupos protomayas en la región occidental.​ Para el caso, en el área de Chalchuapa se han encontrado restos de antiguos asentamientos, probablemente emigrados de Chiapas y Guatemala.30​ Desde esta zona partieron grupos
+                    hacia lugares como Jayaque o Antiguo Cuscatlán en el período preclásico medio.
+                </p>
+                <p>
+                    En el preclásico tardío (500~400 a. C.—200~250 d. C.), existió desarrollo cultural y relaciones de tipo lingüística, escultórica y comercial con las tierras altas de Guatemala, especialmente con la cerámica Usulután y la obsidiana.
+                </p>
+                <p>
+                    Además, las tres zonas del país (occidental, central y oriental) se encontraban pobladas; y se incrementó la construcción de montículos como en Quelepa, Atiquizaya y El Trapiche.
+                </p>
+                <p>
+                    Sin embargo, el florecimiento se vio interrumpido en varios sectores por la erupción del volcán de Ilopango en el 260 d. C.
+                </p>
+
+                <p>En el per&iacute;odo cl&aacute;sico temprano (200~250&mdash;400 d. C.), en Quelepa &mdash;poblado por Lencas y que no fue afectado por la erupci&oacute;n de Ilopango&mdash; hubo progreso notable y se establecieron relaciones con poblaciones
+                    de tierras altas y del sur del istmo. Para el per&iacute;odo cl&aacute;sico medio (400 a 650 d. C.) existi&oacute; repoblaci&oacute;n del occidente y centro del territorio por grupos mayas-chort&iacute;. Una de las localidades era
+                    Joya de Cer&eacute;n, ocupada en el siglo VI y cuyos habitantes se vieron afectados por la erupci&oacute;n del volc&aacute;n Caldera; tambi&eacute;n la zona del Lago de G&uuml;ija fue un lugar de intercambio importante con el occidente
+                    de Honduras, valle de Motagua y Pet&eacute;n.</p>
+
+                <p>Por otra parte, en esa &eacute;poca se establecieron los Cacaoperas en la regi&oacute;n oriental.</p>
+
+                <p>En el per&iacute;odo cl&aacute;sico tard&iacute;o (del 600 al 950 d. C.), se manifest&oacute; un desarrollo cultural evidenciado por la construcci&oacute;n de complejos arquitect&oacute;nicos, siendo los m&aacute;s representativos: Tazumal,
+                    Cara Sucia, Cihuat&aacute;n, Quelepa y San Andr&eacute;s, que tambi&eacute;n tuvo sus a&ntilde;os de esplendor entre los a&ntilde;os 600~650 y 900~1000.</p>
+
+                <p>El per&iacute;odo poscl&aacute;sico (950-1521) es caracterizado por los estados seculares. Sitios como Tazumal y Laguna Seca son abandonados despu&eacute;s del a&ntilde;o 1200; aunque posteriormente arribaron grupos multi&eacute;tnicos
+                    de influencia nahua: los nonoalca-pipiles, que ocuparon un estimado de tres cuartas partes del territorio salvadore&ntilde;o.</p>
+
+                <p>En esta fase existi&oacute; la construcci&oacute;n de obras de ingenier&iacute;a y el comercio a larga distancia; por otra parte, la sociedad se vio marcada por la estratificaci&oacute;n, el dominio de un gobernante supremo y la presencia
+                    de &oacute;rdenes militares. Entre los n&uacute;cleos ind&iacute;genas m&aacute;s importantes se encontraban los izalcos y principalmente el Se&ntilde;or&iacute;o de Cuscatl&aacute;n, que se considera el modelo del desarrollo local
+                    en este per&iacute;odo.</p>
+
+                <h3>Colonia española</h3>
+
+                <p>El a&ntilde;o 1522, cinco nav&iacute;os espa&ntilde;oles partieron desde Panam&aacute; para explorar las costas del litoral pac&iacute;fico. El piloto mayor era Andr&eacute;s Ni&ntilde;o quien bautiz&oacute; al golfo de Fonseca y el 31
+                    de mayo desembarc&oacute; en una isla a la que llam&oacute; &laquo;Petronila&raquo; (Meanguera).</p>
+
+                <p>Para junio de 1524 el conquistador Pedro de Alvarado atraves&oacute; el r&iacute;o Paz con tropas espa&ntilde;olas acompa&ntilde;adas de indios auxiliares, e inici&oacute; el sometimiento de los nativos en el actual territorio salvadore&ntilde;o.
+                    Los colonizadores establecieron en los a&ntilde;os posteriores diversas poblaciones: San Salvador, erigida en 1525 pero que tuvo su asiento definitivo en 1545; San Miguel, cuyo primer asentamiento surgi&oacute; en 1530; y la villa
+                    de la Trinidad (Sonsonate), fundada en 1553. Todo el territorio comprender&iacute;a las Alcald&iacute;as Mayores de Sonsonate y San Salvador, ambas parte del Reino de Guatemala. Junto a la conquista espa&ntilde;ola tambi&eacute;n se
+                    desarroll&oacute; el mestizaje, el proceso de evangelizaci&oacute;n cat&oacute;lica, la ense&ntilde;anza del idioma castellano, y el arribo de esclavos africanos.</p>
+
+                <p>Por la escasez de oro y plata, el Reino no ten&iacute;a la preponderancia de otras posesiones americanas, por lo que sustent&oacute; su econom&iacute;a en la agricultura. Para la creaci&oacute;n de riqueza era aprovechado el trabajo de
+                    los indios, as&iacute; como la apropiaci&oacute;n de tierra. Adem&aacute;s, los nativos, reducidos a pueblos de indios, eran sujetos a tributos, y no fueron raras las quejas por abusos de autoridad.</p>
+
+                <p>La conquista centroamericana tuvo una etapa inicial de extracci&oacute;n de materias primas, a la que sigui&oacute; la dependencia de un producto de exportaci&oacute;n: primero fue el cacao cuyo cultivo de grandes plantaciones empez&oacute;
+                    desde 1540 en la provincia salvadore&ntilde;a, principalmente en la regi&oacute;n sonsonateca; y despu&eacute;s el tinte de a&ntilde;il que desde 1600 era de gran importancia para la econom&iacute;a del Reino y de San Salvador especialmente,
+                    ya que era su principal producto de exportaci&oacute;n.</p>
+
+                <p>En contraste, su proceso de elaboraci&oacute;n perjudicaba la salud de los obreros ind&iacute;genas lo que provoc&oacute; la incorporaci&oacute;n de la mano de obra de africanos esclavizados.45 A estos art&iacute;culos se a&ntilde;ad&iacute;an
+                    el hierro de Metap&aacute;n y tambi&eacute;n el denominado b&aacute;lsamo del Per&uacute; cuya exportaci&oacute;n, como sucedi&oacute; con el a&ntilde;il, perdur&oacute; una vez terminado el dominio espa&ntilde;ol.</p>
+
+                <p>Sin embargo, en este per&iacute;odo existieron factores que menoscababan el dinamismo de la econom&iacute;a, tales como: la merma de la poblaci&oacute;n ind&iacute;gena por enfermedades, el abuso de los recursos naturales resultando en
+                    cosechas d&eacute;biles, recesiones provocadas por las guerras en las que se enfrascaba la corona espa&ntilde;ola, p&eacute;simas v&iacute;as de comunicaci&oacute;n, plagas de chapul&iacute;n, y el dominio del comercio en la regi&oacute;n
+                    por los ricos comerciantes afincados en la Ciudad de Guatemala, entre otros. Para 1785, en virtud de las reformas borb&oacute;nicas, se instituy&oacute; la Intendencia de San Salvador.</p>
+
+
+                <h2>Independencia y Provincias Unidas del Centro de América</h2>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Firma_del_Acta_de_Independencia_de_Centroam%C3%A9rica.jpg/350px-Firma_del_Acta_de_Independencia_de_Centroam%C3%A9rica.jpg">
+
+                <p>Desde la primera d&eacute;cada del siglo XIX, en las posesiones americanas de la corona espa&ntilde;ola, comenzaban a surgir movimientos con inquietudes independentistas. San Salvador no era ajena a los sucesos, ya que la situaci&oacute;n
+                    econ&oacute;mica y pol&iacute;tica era desfavorable para los habitantes de la provincia. La &eacute;lite local conformada por criollos y religiosos deseaban lograr la autonom&iacute;a y sacudirse el dominio de la aristocracia guatemalteca,
+                    por lo que el 5 de noviembre de 1811 estall&oacute; una sublevaci&oacute;n en contra de las autoridades europeas. La revuelta, que fue la primera en el Reino, no hall&oacute; respaldo en las autoridades de las dem&aacute;s poblaciones,
+                    por lo que termin&oacute; en fracaso. Sin embargo, otro alzamiento tendr&iacute;a lugar en 1814. El gobierno de la Capitan&iacute;a logr&oacute; mantener el control sobre los amotinados hasta el a&ntilde;o 1821, cuando en la regi&oacute;n
+                    se conoci&oacute; la firma del Plan de Iguala en el Virreinato de Nueva Espa&ntilde;a, y la proclamaci&oacute;n de independencia de Ciudad Real; que motiv&oacute; a los independentistas a presionar al Jefe Pol&iacute;tico Gabino Ga&iacute;nza
+                    para que convocase a la Diputaci&oacute;n Provincial y firmar el Acta de Independencia que tuvo lugar el 15 de septiembre.</p>
+
+                <p>Sin embargo, y a pesar de que en dicha acta se estipulaba la convocatoria a un congreso para decidir el gobierno de las provincias, las autoridades guatemaltecas y adeptos al Plan de Iguala dispusieron la anexi&oacute;n al Imperio Mexicano
+                    el 5 de enero de 1822. La facci&oacute;n salvadore&ntilde;a se opuso a la decisi&oacute;n por sus ideas republicanas, pero no pudo impedir que San Salvador acabara anexada al Imperio, aunque por breve tiempo, ya que Agust&iacute;n
+                    de Iturbide abdicar&iacute;a al trono. El 1 de julio de 1823 se proclam&oacute; la independencia absoluta de las antiguas provincias del Reino de Guatemala que pasaron a llamarse Provincias Unidas del Centro de Am&eacute;rica y cuya
+                    Asamblea Constituyente era presidida por Jos&eacute; Mat&iacute;as Delgado. A finales de ese a&ntilde;o y principios de 1824, la Alcald&iacute;a Mayor de Sonsonate y posteriormente la localidad de Ahuachap&aacute;n, se anexaron a la
+                    provincia salvadore&ntilde;a.</p>
+
+                <p>La Rep&uacute;blica Federal de Centro Am&eacute;rica se constituy&oacute; el d&iacute;a 22 de noviembre de 1824, y el estado del Salvador era uno de sus cinco Estados. No obstante, el 12 de junio de ese mismo a&ntilde;o los salvadore&ntilde;os
+                    se hab&iacute;an apresurado a emitir su propia constituci&oacute;n, para contrarrestar cualquier asechanza del centralismo guatemalteco.</p>
+
+                <p>A pesar del r&eacute;gimen federal, en el territorio a&uacute;n prevalec&iacute;a la vieja rivalidad entre los provincianos, que deseaban mantener la autonom&iacute;a ante el mismo poder federal, y los conservadores guatemaltecos, que
+                    pretend&iacute;an conservar su hegemon&iacute;a en la regi&oacute;n. Tal antagonismo, sumado a la econom&iacute;a precaria, deficientes sistemas de comunicaci&oacute;n, y una fuerza armada fr&aacute;gil, dificult&oacute; la existencia
+                    de la Rep&uacute;blica hasta provocar dos guerras civiles entre los a&ntilde;os 1826-1829, y 1830-1842. Tambi&eacute;n en El Salvador ocurri&oacute; un levantamiento ind&iacute;gena acaudillado por Anastasio Aquino.</p>
+
+                <p>Con el &eacute;xodo de Francisco Moraz&aacute;n en 1840 &mdash;presidente centroamericano que ten&iacute;a simpatizantes en El Salvador y quien se esforz&oacute; en implantar medidas liberales extremas en la naci&oacute;n&mdash;, acab&oacute;
+                    la Rep&uacute;blica Federal. El 2 de febrero de 1841, El Salvador se proclam&oacute; como Estado soberano e independiente.</p>
+
+                <img style="width: 30%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Proclama_de_libertad_%28indep._Centroam%C3%A9rica%29.jpg/1024px-Proclama_de_libertad_%28indep._Centroam%C3%A9rica%29.jpg" alt="independencia-de-el-salvador">
+
+                <br>
+                <br>
+                <h2>Organización territorial</h2>
+                <p>El Salvador se divide en 14 departamentos. Geográficamente están agrupados en tres zonas, las cuales son: Occidental, Central y Oriental. Cada departamento está fraccionado en municipios, que hacen un total de 262, los cuales tienen autonomía
+                    en lo económico, técnico y en lo administrativo. Son regidos por un concejo municipal elegido cada tres años por votación pública.
+                </p>
+                <p> En el territorio de cada municipio existe una cabecera que es nominada como pueblo, villa o ciudad. Asimismo, dentro de la circunscripción hay cantones, los cuales están conformados por caseríos.</p>
+                <img src="https://www.elsalvadormipais.com/wp-content/uploads/2020/01/el-salvador-mapa.png">
+                <table>
+                    <caption><b>Departamentos de El Salvador</b>
+                    </caption>
+                    <tbody>
+                        <tr>
+                            <th>Departamento</th>
+                            <th>Cabecera</th>
+                        </tr>
+                        <tr>
+                            <td>Santa Ana</td>
+                            <td>Santa Ana</td>
+                        </tr>
+                        <tr>
+                            <td>Ahuachapán</td>
+                            <td>Ahuachapán</td>
+                        </tr>
+                        <tr>
+                            <td>Sonsonate</td>
+                            <td>Sonsonate</td>
+                        </tr>
+                        <tr>
+                            <td>La Libertad</td>
+                            <td>Santa Tecla</td>
+                        </tr>
+                        <tr>
+                            <td>Chalatenango</td>
+                            <td>Chalatenango</td>
+                        </tr>
+                        <tr>
+                            <td>Cuscatlán</td>
+                            <td>Cojutepeque</td>
+                        </tr>
+                        <tr>
+                            <td>San Salvador</td>
+                            <td>San Salvador</td>
+                        </tr>
+                        <tr>
+                            <td>La Páz</td>
+                            <td>Zacatecoluca</td>
+                        </tr>
+                        <tr>
+                            <td>Cabañas</td>
+                            <td>Sensuntepeque</td>
+                        </tr>
+                        <tr>
+                            <td>San Vicente</td>
+                            <td>San Vicente</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <br>
+                <br>
+                <h2>Lugares turísticos de El Salvador</h2>
+                <p> El Salvador destacó entre los mejores destinos para hacer turismo en 2016, según la revista virtual “The Rough Guide”, especializada en contenidos e información de viajes y destinos turísticos del Reino Unido.
+                </p>
+                <p>
+                    A continuación verás los lugares más hermosos que debes tomar en cuenta en tu viaje a El Salvador:
+                </p>
+                <div>
+                    <h3>Lago de Coatepeque</h3>
+                    <img src="https://www.laprensagrafica.com/__export/1560969824575/sites/prensagrafica/img/2019/06/19/whatsapp_image_2019-06-19_at_12_30_20_pm_1_crop1560969779118.jpeg_554688468.jpeg" alt="lago-de-coatepeque-el-salvador" style="width: 50%;">
+                    <p>Lo bonito y curioso de este lago es su origen volcánico y que en los últimos años el lago ha cambiado a color turquesa en ciertas épocas del año. Es frecuentado no solo por turistas, sino también por locales que tienen propiedades
+                        alrededor de él. Para disfrutar del mismo te recomiendo alquilar una casa, visitar un hotel o simplemente comer en uno de los restaurantes en la zona.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Playa El Tunco –Tunco Beach-</h3>
+                    <img src="https://www.elsalvadormipais.com/wp-content/uploads/2017/01/playa-el-tunco.jpg" alt="playa-el-tunco">
+                    <p>Definitivamente uno de mis lugares favoritos del país. Es una de las playas más populares, dado que el surf en esta playa es bastante famoso mundialmente. Aquí podrás encontrar un ambiente playero, bohemio, sin preocupaciones. Puedes
+                        caminar tranquilamente por la calle, explorando los diferentes restaurantes delicioso en la orilla del mar y sus respectivos hoteles. Si buscas un ambiente nocturno en El Tunco, te recomiendo Monkeylala, Blú y la Guitarra.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Ruta de las Flores</h3>
+                    <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6a/f1/e6.jpg" alt="ruta-de-las-flores-el-salvador">
+                    <p>
+                        En este paseo los paisajes verdes, cafetales y un agradable clima fresco no faltaran. Consiste en visitar 5 pueblos vivos, los cuales son cercanos entre sí. Conocerás Nahzuicalo, el cual es famoso por sus artesanías y por ser el centro indígena más significativo
+                        del país. Luego Salcoatitán, donde encontrarás dos iglesias bonitas y una de las ceibas más antiguas que podrás ver observar alguna vez. Tu siguiente parada será Juayua, donde los festivales gastronómicos son todo un atractivo.
+                        Apaneca será tu siguiente destino, en el cual te recomiendo el restaurante Jardín de Celeste y en donde podrás visitar el laberinto más grande de Centroamérica llamado “El Laberinto de Albania”. Para cerrar con broche de oro irás
+                        a Concepción de Ataco. Este último pueblo es el más famoso, donde no te puedes perder los murales presentes en las calles principales.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Volcán Ilamatepec</h3>
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/16/32/ac/45/volcan-ilamatepec-santa.jpg" alt="volcan-ilamatepec-santa-ana">
+                    <p>
+                        Muchos turistas escalan este volcán (el más alto del país) con el objetivo de llegar a su cráter y poder observar su laguna color turquesa. La caminata es acompañada de los policías de turismo y dura aproximadamente 3 horas. ¡No dejen pasar esta hermosa
+                        oportunidad!
+                    </p>
+                </div>
+
+                <div>
+                    <h3>El Boquerón</h3>
+                    <img src="https://lh4.googleusercontent.com/-uANs42fmp-0/VC13lrrI2CI/AAAAAAAAGa0/LhYUcDsXVK0/s480/el-boqueron-crater.jpg" alt="el-boqueron-crater">
+                    <p>
+                        Este no te lo puedes perder. Si eres un traveler aventurero, podrás visitar el Parque Nacional El Boquerón, el cual se encuentra en el cráter del volcán y cuenta con miradores, senderos, vistas impresionantes, amplia fauna y flora. No te preocupes si
+                        eres un traveler menos aventurero, te recomiendo conocer el Boquerón de igual manera ya que queda bastante cerca de la ciudad, es seguro y sus vistas son impresionantes. Entre mis recomendaciones de lo que tu puedes hacer es ir
+                        a comer rico. En mi opinión restaurantes que tienen comida deliciosa y buena vista son: Picnic Steak House, Las Brumas, Linda Vista Gardens, y Plaza Volcán. Te recomiendo ir en un día soleado para que puedas sacarle total provecho.
+                    </p>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <center>
+            <p>Sitio web creado por: Roberto Meléndez</p>
+            <small>Todos los derechos reservados &copy; 2021.</small>
+        </center>
+    </footer>
+</body>
+
+</html>

@@ -3,19 +3,26 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Home | LIC 07L</title>
+    <title>Los Simpson</title>
 
-    <link rel="stylesheet" href="app.css">
+    <!-- ESTILOS DEL MENU Y LA PAGINA PRINCIPAL (HOME/INICIO)-->
+    <link rel="stylesheet" href="../../style.css">
+
+    <!-- ESTILOS PRINCIPAL DE LA PAGINA -->
+    <link rel="stylesheet" href="../style1.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
 
     <!-- Jquery-->
     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script src="app.js"></script>
+
+    <!-- FUNCIONALIDAD MENU -->
+    <script src="../../app.js"></script>
 </head>
 
 <body>
@@ -144,94 +151,69 @@
         </div>
     </header>
 
+
     <main role="main">
-        <section class="home">
-            <!--
-                <h1>Discusiones LIC 07L - Ciclo II 2021</h1>
-            -->
-        </section>
-        <section class="discusiones">
-            <div class="container">
-                <h1>Discusiones</h1>
-                <p>Roberto Ezequiel Meléndez Hernández MH181960</p>
-                <section class="discusion">
-                    <div class="primary-box btn-arrow">
-                        <h2>Guía #1 - Introducción a HTML</h2>
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/>
-                            </svg>
-                        </span>
-                    </div>
-                    <div class="secondary-box">
-                        <ul>
-                            <li>
-                                <div>
-                                    <h3>Programa Favorito</h3>
-                                </div>
-                                <div class="link">
-                                    <a href="https://robertoher76.github.io/programa-fav.html" class="btn">Ver más</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <h3>Centroamérica</h3>
-                                </div>
-                                <div class="link">
-                                    <a href="https://robertoher76.github.io/el-salvador.html" class="btn">Ver más</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
+        <article id="los-simpson">
+            <section class="container">
+                <h1>Mi Programa Favorito: &nbsp;
+                    <span>Los Simpson</span>
+                </h1>
+                <div id="introduccion">
+                    <img src="https://static.wikia.nocookie.net/lossimpson/images/f/f8/Familia_Simpson.png/revision/latest/scale-to-width-down/180?cb=20090414030121&path-prefix=es" alt="bandera-de-costa-rica">
+                    <p>
+                        <strong>The Simpsons</strong> (en español, Los Simpson) es una serie estadounidense de animación, en formato de comedia de situación, creada por Matt Groening para Fox Broadcasting Company y emitida en varios países del mundo.
+                        La serie es una sátira hacia la sociedad estadounidense que narra la vida y el día a día de una familia de clase media de ese país (cuyos miembros son Homer, Marge, Bart, Lisa y Maggie Simpson) que vive en un pueblo ficticio llamado
+                        Springfield.
+                    </p>
+                </div>
+            </section>
+            <section class="personajes">
+                <div class="container text-center">
+                    <h2>Personajes</h2>
+                    <p>
+                        Los Simpson? es una familia típica estadounidense que vive en Springfield, una ciudad ficticia de la "América media". Homer, el padre, trabaja como inspector de seguridad en la planta de energía nuclear de Springfield en el sector 7G, posición que contrasta
+                        con su personalidad descuidada y bufonesca. Está casado con Marge, una estereotípica ama de casa y madre con la cual tiene tres hijos: Bart, un problemático chico de 10 años; Lisa, una precoz activista de 8 años, y Maggie, un bebé
+                        que no habla pero se comunica succionando un chupete. La familia posee un perro, Santa's Little Helper,? y un gato, Snowball II; Ambas mascotas han protagonizado algún episodio. A pesar del paso de los años, Los Simpson no envejecen
+                        y siguen manteniendo el mismo aspecto que tenían a finales de los 80.
+                    </p>
+                    <p>
+                        La serie incluye además un nutrido grupo de personajes secundarios: compañeros de trabajo, profesores, otros familiares, amigos de la familia, gente de la ciudad y estrellas locales. Según Matt Groening, la serie tomó la idea de incluir un gran reparto
+                        de la telecomedia canadiense Second City Television.
+                    </p>
+                    <img src="http://assets.stickpng.com/images/5eb95b6a17f3c600044a2905.png" style="width: 25%;">
+                </div>
+            </section>
 
-                <section class="discusion">
-                    <div class="primary-box btn-arrow">
-                        <h2>Guía #2 - Introducción a CSS</h2>
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/>
-                            </svg>
-                        </span>
-                    </div>
-                    <div class="secondary-box">
-                        <ul>
-                            <li>
-                                <div>
-                                    <h3>Programa Favorito con CSS</h3>
-                                </div>
-                                <div class="link">
-                                    <a href="https://robertoher76.github.io/programa-fav-con-css.html" class="btn">Ver más</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <h3>Centroamérica con CSS</h3>
-                                </div>
-                                <div class="link">
-                                    <a href="https://robertoher76.github.io/el-salvador-con-css.html" class="btn">Ver más</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <h3>Biografía</h3>
-                                </div>
-                                <div class="link">
-                                    <a href="https://robertoher76.github.io/biografia.html" class="btn">Ver más</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
+            <section id="la-serie">
+                <div class="container text-center">
+                    <h2>¿De qué trata el programa?</h2>
+                    <p>
+                        Los Simpson usa la fórmula de la comedia de situación o sitcom. Se centra en las aventuras de una familia media estadounidense. Sin embargo, dado su carácter de animación, el ámbito es mayor que el de una comedia de situación común. La ciudad de Springfield
+                        actúa como un universo completo que permite a los personajes enfrentarse a los problemas de la sociedad moderna. El tener a Homer trabajando en una central nuclear permite comentar el estado del medio ambiente. Seguir los años
+                        de Bart y Lisa por la Escuela Primaria de Springfield permite a los guionistas de la serie ilustrar asuntos controvertidos sobre el tema de la educación. La ciudad posee, además, un amplio número emisoras de televisión que permite
+                        a los realizadores hacer chistes sobre sí mismos y el mundo del entretenimiento.
+                    </p>
+                    <p>
+                        Algunos comentaristas han notado que la serie es política en su naturaleza y susceptible de un sesgo de izquierdas. Al Jean admitió en una entrevista que «Nosotros [la serie] somos de inclinación liberal».[50] Los guionistas a menudo evidencian su inclinación
+                        por ideas progresistas, aunque hacen chistes con todo el espectro político. La serie, a menudo, presenta gobiernos y grandes empresas como entidades insensibles dispuestas a aprovecharse del trabajador medio. Por tanto, los guionistas
+                        frecuentemente presentan a las figuras de la autoridad con una luz oscura y desfavorable. En Los Simpson, los políticos son corruptos, los ministros eclesiásticos como Reverend Lovejoy se muestran indiferentes hacia los feligreses
+                        y los policías locales son unos incompetentes.
+                    </p>
 
-            </div>
-        </section>
+                    <p>
+                        La religión es otro de los temas principales; en tiempos de crisis, la familia frecuentemente vuelve sus ojos a Dios, y la serie se ha ocupado de la mayoría de las religiones mayoritarias (como el cristianismo, judaísmo o hinduismo, entre otras).
+                    </p>
+                    <img src="http://i.imgur.com/6tuhiL3.png">
+                </div>
+            </section>
 
+        </article>
 
         <footer>
-            <div class="container">
-                <p>© 2021 Machine QR | Todos los derechos reservados.</p>
-            </div>
+            <center>
+                <p>Sitio web creado por: Roberto Meléndez</p>
+                <small>Todos los derechos reservados &copy; 2021.</small>
+            </center>
         </footer>
     </main>
 </body>

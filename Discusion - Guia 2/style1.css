@@ -1,0 +1,86 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#introduccion {
+    display: flex;
+    margin: 2em 0;
+}
+
+#introduccion p {
+    padding: 0 2em;
+    text-align: justify;
+}
+
+#introduccion img {
+    max-width: 15em;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin: 0 0 2em;
+}
+
+h1 {
+    align-items: center;
+    display: flex;
+}
+
+h1 span {
+    color: #ffc500;
+    font-family: 'Rock Salt', cursive;
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.27);
+    -moz-text-stroke: 0.5px rgba(0, 0, 0, 0.27);
+}
+
+h2 {
+    color: #ffc500;
+    font-family: 'Rock Salt', cursive;
+    font-size: 3em;
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.27);
+    -moz-text-stroke: 0.5px rgba(0, 0, 0, 0.27);
+    text-align: left;
+    margin: 0 0 0.5em;
+}
+
+strong {
+    color: #ffc500;
+}
+
+section {
+    padding: 2em 0;
+}
+
+section.personajes {
+    background-color: #7dccfa;
+    padding: 2em 0;
+}
+
+section.personajes p {
+    text-align: justify;
+}
+
+section.personajes img {
+    margin: 0 auto;
+    max-width: 30em;
+}
+
+section#la-serie {
+    background-color: #ffc500;
+}
+
+section#la-serie p {
+    text-align: justify;
+}
+
+section#la-serie h2 {
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.27);
+    -moz-text-stroke: 0.5px rgba(0, 0, 0, 0.27);
+    color: #7dccfa;
+    font-family: 'Rock Salt', cursive;
+}

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Guatemala | Centroamerica</title>
+
+    <!-- ESTILOS DEL MENU Y LA PAGINA PRINCIPAL (HOME/INICIO)-->
+    <link rel="stylesheet" href="../../style.css">
+
+    <!-- ESTILOS PRINCIPAL DE LA PAGINA -->
+    <link rel="stylesheet" href="../style2.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Jquery-->
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+    <!-- FUNCIONALIDAD MENU -->
+    <script src="../../app.js"></script>
+</head>
+
+<body>
+    <header class="">
+        <div class="container menu-desktop">
+            <div class="row space-between align-item-center position-relative">
+                <span class="logo">                    
+                    <a href="https://robertoher76.github.io/">
+                        Lenguajes
+                        <br>
+                        Interpretados
+                        <br>
+                        en el Cliente
+                    </a>
+                </span>
+                <div class="menu-icon">
+                    <div class="line-menu"></div>
+                    <div class="line-menu"></div>
+                    <div class="line-menu"></div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-mobile">
+            <div class="mobile-container">
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <span class="primary-menu-item">
+                                <a href="https://robertoher76.github.io/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                        <path d="M12 6.453l9 8.375v9.172h-6v-6h-6v6h-6v-9.172l9-8.375zm12 5.695l-12-11.148-12 11.133 1.361 1.465 10.639-9.868 10.639 9.883 1.361-1.465z"/>
+                                    </svg>
+                                    &nbsp;
+                                    Inicio
+                                </a>
+                            </span>
+                        </li>
+                        <li>
+                            <div class="practica">
+                                <span class="menu-item primary-menu-item">                                    
+                                    <a href="JavaScript:void(0);">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="36" height="36" viewBox="0 0 26 26">
+                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-8 10.199l-3.64 1.801 3.64 1.796v2.204l-6-2.935v-2.131l6-2.934v2.199zm8 2.866l-6 2.935v-2.204l3.64-1.796-3.64-1.801v-2.199l6 2.935v2.13z"/>
+                                        </svg>
+                                        &nbsp;
+                                        Practica #1: HTML
+                                    </a>                              
+                                </span>
+                                <div class="ejercicios">
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/programa-fav.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;
+                                                Programa Favorito
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/el-salvador.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;
+                                                Centroamérica
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="practica">
+                                <span class="menu-item primary-menu-item">                                    
+                                    <a href="JavaScript:void(0);">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="36" height="36" viewBox="0 0 26 26">
+                                            <path d="M23 10.826v2.349c-1.562 0-3 1.312-3 2.857 0 2.181 1.281 5.968-6 5.968v-2.002c4.917 0 3.966-1.6 3.966-3.967 0-2.094 1.211-3.5 2.278-4.031-1.067-.531-2.278-1.438-2.278-3.312 0-2.372.94-4.692-3.966-4.686v-2.002c7.285 0 6 4.506 6 6.688 0 1.544 1.438 2.138 3 2.138zm-19-2.138c0-2.182-1.285-6.688 6-6.688v2.002c-4.906-.007-3.966 2.313-3.966 4.686 0 1.875-1.211 2.781-2.278 3.312 1.067.531 2.278 1.938 2.278 4.031 0 2.367-.951 3.967 3.966 3.967v2.002c-7.281 0-6-3.787-6-5.969 0-1.545-1.438-2.857-3-2.857v-2.349c1.562.001 3-.593 3-2.137z"/>
+                                        </svg>
+                                        &nbsp;
+                                        Practica #2: CSS
+                                    </a>                              
+                                </span>
+                                <div class="ejercicios">
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/programa-fav-con-css.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;
+                                                Programa Favorito con CSS
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/el-salvador-con-css.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;
+                                                Centroamérica con CSS
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/biografia.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;                                        
+                                                Biografía con CSS
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main role="main">
+        <section id="navegacion-entre-paises">
+            <div class="container">
+                <span class="logo">Países Centroamericanos</span>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="https://robertoher76.github.io/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                </svg>&nbsp;Inicio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/el-salvador-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                </svg>&nbsp;El Salvador
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/guatemala-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                </svg>&nbsp;Guatemala
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/honduras-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                            </svg>&nbsp;Honduras
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/nicaragua-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                </svg>&nbsp;Nicaragua
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/costa-rica-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                            </svg>&nbsp;Costa Rica
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <article class="container">
+            <h1>Guatemala</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/800px-Flag_of_Guatemala.svg.png" alt="bandera de guatemala">
+
+            <section class="introduction">
+                <h2>Introducción</h2>
+                <p>
+                    <strong>Guatemala</strong> (del náhuatl: <i>Quauhtlemallan</i>, "lugar de muchos árboles"), oficialmente
+                    <strong>República de Guatemala</strong>, es un estado soberano, libre e independiente situado en el extremo noroccidental de América Central. Políticamente, es una república democrática y representativa organizada para su administración
+                    en 22 departamentos. Su cultura latinoamericana es variada; su amplia cultura autóctona es producto de la mezcla de las culturas maya y española durante la época virreinal. Es el país más poblado de Centroamérica, con 16 301 286 de
+                    habitantes según el censo realizado en el año 2018. Asimismo, el Área metropolitana de Guatemala cuenta con una población de 5 301 286 habitantes y una extensión territorial de 2253 km², lo que la convierte en el Área metropolitana
+                    más extensa y con mayor número de habitantes de América Central. Su capital y ciudad más poblada es la Ciudad de Guatemala, que a su vez es el principal centro económico y financiero del país. La economía de Guatemala es la más grande
+                    de Centroamérica.
+                </p>
+            </section>
+            <section class="historia">
+                <h2>Historia</h2>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Coat_of_arms_of_Guatemala.svg/800px-Coat_of_arms_of_Guatemala.svg.png" alt="escudo de guatemala">
+                <p>
+                    Guatemala está situada dentro del área geográfica conocida como Mesoamérica. Dentro de sus límites territoriales se desarrollaron varias culturas. Entre ellas la Civilización Maya que fue notable por lograr un complejo desarrollo social. Sobresalió en
+                    varias disciplinas científicas tales como la arquitectura, la escritura, un avanzado cálculo del tiempo por medio de las matemáticas y la astronomía. El calendario maya que según los historiadores, era más preciso que el calendario
+                    gregoriano que utilizamos hoy en día. Eran cazadores, agricultores, practicaban la pesca, domesticaban animales como pavos y patos; se trasportaban en canoas para navegar por los ríos y para viajar a las islas cercanas. También destacaron
+                    en la pintura, la escultura, la orfebrería y la metalurgia del cobre, tejían el algodón y la fibra de agave, desarrollaron el más completo sistema de escritura en América prehispánica, entre los deportes que practicaban se destaca
+                    el juego de pelota, el cual más que un juego era una ceremonia.
+                </p>
+                <h3>Colonia española</h3>
+                <p>
+                    El 31 de enero de 1676 por Real Cédula de Carlos II se fundó la Real y Pontificia Universidad de San Carlos Borromeo,29​ la tercera universidad fundada en América, donde estudiaron muchas figuras importantes del país, entre ellos Fray Francisco Ximénez,
+                    descubridor del manuscrito Popol Vuh —y quien además lo tradujo al castellano adaptándolo a la religión católica30​— y el doctor José Felipe Flores, eminente protomédico de Guatemala y médico personal del Rey de España. En el arte
+                    del siglo xvii sobresalen el maestro pintor Pedro de Liendo y el maestro escultor Quirio Cataño.
+                </p>
+
+                <p>
+                    En Santiago de los Caballeros estaría ubicada la capital del Reino de Guatemala, hasta su traslado en 1775 al Valle de la Ermita, actual ubicación de la capital. El rey Felipe II de España y Portugal le otorgó el título de «Muy noble y muy leal Ciudad
+                    de Santiago de los Caballeros de Goathemala». Durante la dominación española, que duró casi 300 años, Guatemala fue una región de carácter estratégico (Capitanía General del Reino de Guatemala), formando parte del Virreinato de la
+                    Nueva España. La Capitanía General de Guatemala se extendía desde la región de Chiapas (en la actualidad perteneciente a México) hasta la actual Costa Rica. Sus divisiones políticas variarían con frecuencia, lo mismo que las fronteras
+                    entre las diversas provincias. A mediados del siglo xvii, el reino en su conjunto tenía treinta y dos provincias, de las cuales doce estaban en el moderno territorio de la República de Guatemala: el valle de Guatemala, donde se encontraba
+                    la ciudad de Santiago de los Caballeros de Guatemala, sede de la Real Audiencia; las Alcaldías Mayores de Amatique, Suchitepéquez y Verapaz, los Corregimientos de Acasaguastlán, Atitlán, Chiquimula, Escuintla, Guazacapán, Quetzaltenango,
+                    Sololá (Tecpán-Atitlán) y Totonicapán.
+                </p>
+
+                <p>
+                    A finales del siglo xviii, cuando el reformismo ilustrado de los Borbones implantó el régimen de Intendencias en algunas regiones del Imperio Español, el número de provincias de la Capitanía General de Guatemala se redujo a 15, de las cuales 9 estaban
+                    en el actual territorio de Guatemala: las Alcaldías Mayores de Chimaltenango, Escuintla, Sacatepéquez, Sololá, Suchitepéquez, Totonicapán y Verapaz, y los Corregimientos de Chiquimula y Quetzaltenango. Al promulgarse en 1812 la Constitución
+                    de Cádiz, el reino de Guatemala desapareció como unidad, y fue sustituido por dos provincias, sin subordinación entre sí: la Provincia de Guatemala, que comprendía el territorio de Chiapas, El Salvador, Guatemala y Honduras, y la Provincia
+                    de Nicaragua y Costa Rica. En 1821, durante el Trienio Liberal en España entró de nuevo en vigencia dicha Constitución, segregándose de la Provincia de Guatemala las Provincias de Comayagua (Honduras), Chiapas y El Salvador.
+                </p>
+
+
+                <h2>Independencia y Provincias Unidas del Centro de América</h2>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Firma_del_Acta_de_Independencia_de_Centroam%C3%A9rica.jpg" alt="bandera de guatemala">
+                <p> En 1820, Atanasio Tzul, ante el interés de su pueblo por acabar con los impuestos eclesiásticos y el tributo, unió fuerzas con Lucas Aguilar y con el Alcalde Mayor de Totonicapán, Narciso Mallol. Juntos lucharon en contra del poder de
+                    la colonia española, manejada por el Capitán General del Reino de Guatemala, el Arzobispo de Guatemala Ramón Casaus y Torres, la élite ladina local y los caciques de Totonicapán, quienes tenían privilegios con respecto al resto de
+                    la población indígena debido a su apoyo a la conquista europea. Los tributos reales habían sido suprimidos en 1811 por las cortes de Cádiz, pero fueron impuestos de nuevo por el rey Fernando VII. Tzul fue azotado durante nueve días55​
+                    y encarcelado más tarde en Quetzaltenango, después de que el movimiento sufriera una represión a manos de alrededor de mil milicianos.56​ El 25 de enero de 1821, él y otros dirigentes solicitaron la gracia del indulto, el cual les
+                    fue concedido el 1.° de marzo de 1821, después de una manifestación de individuos totonicapenses.
+                </p>
+
+                <p>
+                    En México, la revolución obtuvo un completo triunfo y a través del Plan de Iguala declaró su independencia total del Imperio español el 24 de febrero de 1821. Esta noticia desconcertó a las autoridades españolas de Guatemala y a la vez sirvió de estímulo
+                    a la causa independentista. El 9 de marzo, presionado por los liberales independentistas, el capitán general dejó el puesto para que fuese ocupado por el subinspector del ejército Gabino Gaínza. Gaínza era un hombre de una edad muy
+                    avanzada, de carácter débil y voluble. Bajo su mando, Centroamérica experimentó una agitación social de niveles intolerables que obligó a la diputación provincial a solicitar a Gaínza una reunión para discutir el difícil tema de la
+                    independencia. El capitán general Gaínza, entonces, atendiendo este llamado, reunió una junta de notables compuesta por el arzobispo, los diputados, los altos cargos militares, los prelados de las órdenes religiosas, y empleados de
+                    hacienda. En aquella memorable reunión, presidida por el mismo Gaínza, los criollos presentes manifestaron su opinión con libertad. José Cecilio del Valle tomó la palabra y en un largo discurso, demostró la necesidad y la justicia
+                    de la independencia, pero manifestando que, para proclamarla, primero debía oírse el voto de la Provincias.
+                </p>
+
+                <p>
+                    Tras un breve período de incertidumbre política, el 5 de enero de 1822, las provincias centroamericanas fueron anexadas al Imperio Mexicano, una idea de Agustín de Iturbide para contrarrestar la expansión estadounidense. El Imperio Mexicano quería ser
+                    una monarquía que desembocase en una unión de lo que fueron habitantes del Virreinato de Nueva España bajo una bandera única, católica y poderosa. Sin embargo un año más tarde, el imperio se colapsó y militares republicanos instauraron
+                    una democracia y un estado mexicano; Guatemala y sus provincias se separaron de él, declarando de nuevo su independencia y pasando a formar las Provincias Unidas del Centro de América en julio de 1823.
+                </p>
+
+                <br>
+                <br>
+                <h2>Organización territorial</h2>
+                <p>Guatemala está organizada en ocho regiones, veintidós departamentos y trescientos cuarenta municipios:</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Departments_of_Guatemala_%28es%29.svg/450px-Departments_of_Guatemala_%28es%29.svg.png">
+                <table>
+                    <caption>
+                        <b>Departamentos de Guatemala</b>
+                    </caption>
+                    <tbody>
+                        <tr>
+                            <th>Departamento</th>
+                            <th>Municipios</th>
+                            <th>Cabecera</th>
+                        </tr>
+                        <tr>
+                            <td>Petén</td>
+                            <td>14</td>
+                            <td>Flores</td>
+
+                        </tr>
+                        <tr>
+
+                            <td>Huehuetenango</td>
+                            <td>32</td>
+                            <td>Huehuetenango</td>
+
+                        </tr>
+                        <tr>
+                            <td>Quiché</td>
+                            <td>21</td>
+                            <td>Santa Cruz del Quiché</td>
+                        </tr>
+                        <tr>
+                            <td>Alta Verapaz</td>
+                            <td>17</td>
+                            <td>Cobán</td>
+                        </tr>
+                        <tr>
+                            <td>Izabal</td>
+                            <td>5</td>
+                            <td>Puerto Barrios</td>
+                        </tr>
+                        <tr>
+                            <td>San Marcos</td>
+                            <td>30</td>
+                            <td>San Marcos</td>
+                        </tr>
+                        <tr>
+                            <td>Quetzaltenango</td>
+                            <td>24</td>
+                            <td>Quetzaltenango</td>
+                        </tr>
+                        <tr>
+                            <td>Totonicapán</td>
+                            <td>8</td>
+                            <td>Totonicapán</td>
+                        </tr>
+                        <tr>
+                            <td>Sololá</td>
+                            <td>19</td>
+                            <td>Sololá</td>
+                        </tr>
+                        <tr>
+                            <td>Chimaltenango</td>
+                            <td>16</td>
+                            <td>Chimaltenango</td>
+                        </tr>
+                        <tr>
+                            <td>Sacatepéquez</td>
+                            <td>16</td>
+                            <td>Antigua Guatemala</td>
+                        </tr>
+                        <tr>
+                            <td>Guatemala</td>
+                            <td>17</td>
+                            <td>Ciudad de Guatemala</td>
+                        </tr>
+                        <tr>
+                            <td>Baja Verapaz</td>
+                            <td>8</td>
+                            <td>Salamá</td>
+                        </tr>
+                        <tr>
+                            <td>El Progreso</td>
+                            <td>8</td>
+                            <td>Guastatoya</td>
+                        </tr>
+                        <tr>
+                            <td>Jalapa</td>
+                            <td>7</td>
+                            <td>Jalapa</td>
+                        </tr>
+                        <tr>
+                            <td>Zacapa</td>
+                            <td>11</td>
+                            <td>Zacapa</td>
+                        </tr>
+                        <tr>
+                            <td>Chiquimula</td>
+                            <td>11</td>
+                            <td>Chiquimula</td>
+                        </tr>
+                        <tr>
+                            <td>Retalhuleu</td>
+                            <td>9</td>
+                            <td>Retalhuleu</td>
+                        </tr>
+                        <tr>
+                            <td>Suchitepéquez</td>
+                            <td>21</td>
+                            <td>Mazatenango</td>
+                        </tr>
+                        <tr>
+                            <td>Escuintla</td>
+                            <td>13</td>
+                            <td>Escuintla</td>
+                        </tr>
+                        <tr>
+                            <td>Santa Rosa</td>
+                            <td>14</td>
+                            <td>Cuilapa</td>
+                        </tr>
+                        <tr>
+                            <td>Jutiapa</td>
+                            <td>17</td>
+                            <td>Jutiapa</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <br>
+                <br>
+                <h2>Lugares turísticos de guatemala</h2>
+                <p> Entre los atractivos turísticos de Guatemala está el tener dos costas oceánicas: la del Pacífico y la del Atlántico, lo cual hace que tenga playas con fisonomías distintitas: las del Caribe con arenas blancas y las otras con arenas volcánicas.
+                    Esto ya habla de la variedad de un país dibujado por 37 volcanes, con hermosas ciudades coloniales donde se alzan edificaciones barrocas y neoclásicas y la presencia ineludible de la cultura maya.
+                </p>
+                Asimismo, hay otros rasgos menos conocidos por el turista, por ejemplo, el de la cultura africana que se mezcló con la indígena para dar origen a la etnia garífuna, con una culinaria impresionante.
+                <p>
+                    Con la riqueza de paisajes naturales enclavados en montañas y en parejas pocos conocidos; con diversidad de ecosistemas; con reservas de faunas y flora, en Centroamérica, para cada viajero hay diferentes lugares turísticos en Guatemala para sentirse en
+                    libertad.
+                </p>
+                <p>
+                    A continuación verás los lugares más hermosos que debes tomar en cuenta en tu viaje a Guatemala:
+                </p>
+                <div>
+                    <h3>Antigua Guatemala (Departamento de Sacatepéquez)</h3>
+                    <img src="https://lanzateyviaja.com/wp-content/uploads/2019/07/antigua-guatemala.jpg" alt="antigua-guatemala">
+                    <p>A 25 kilómetros de la capital se ubica esta ilustre localidad colonial. Durante su historia fue llamada con varios nombres, el primero fue Santiago de los Caballeros de Guatemala. Con él permaneció durante la colonia, pero hoy sencillamente
+                        se le denomina Antigua.
+                    </p>
+
+                    <p>
+                        Antigua fue la capital de la capitanía desde 1541 hasta 1776 y durante ese tiempo se construyeron la mayoría de las impresionantes edificaciones, indiscutibles lugares históricos de Guatemala. Entre las que debes visitar están los palacios de los capitanes
+                        generales y el del ayuntamiento, el arco de Santa Calina y el convento de la Merced, la antigua catedral. La ciudad fue declarada Patrimonio de la Humanidad por la Unesco en 1979.
+                    </p>
+
+                    <p>
+                        Una fecha muy apropiada para conocerla es Semana Santa, cuando disfrutarás de unos de los rituales católicos más impresionantes del mundo, celebrados de manera sincrética con la cultura maya. En los últimos años aumentaron los lugares turísticos de Antigua
+                        en Guatemala y hoy está mejor preparada para ofrecer servicios de transporte, hoteles y restaurantes.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Semuc Champey (Departamento de Alta Verapaz)</h3>
+                    <img src="https://lanzateyviaja.com/wp-content/uploads/2019/07/Semuc-Champey-Guatemala.jpg" alt="semuc-champey">
+                    <p>Semuc Champey es considerada una de las mejores piscinas naturales del mundo y uno de los mejores destinos turísticos de Guatemala. Para llegar allí, puedes partir de Cobán, en el centro de la nación chapina.
+                    </p>
+
+                    <p>
+                        La formación de este paisaje fue lenta. Durante milenios cayó un fino polvo de caliza desde las montañas adyacentes y formó de manera natural un puente sobre el río Cahabón. Hoy la corriente fluye debajo de las pozas por una cueva durante un buen trayecto
+                        y luego hace su aparición ya casi al final por el salidero.
+                    </p>
+
+                    <p>
+                        Las albercas naturales tienen aguas turquesas, con pozas que van desde uno hasta tres metros de profundidad. En relación a los servicios no existe una gran oferta, pero algunas cabañas de hospedajes pensadas con sentido ecológico brindan la oportunidad
+                        de comer y hacer tours por el río y sus alrededores. La buena noticia es que también puedes acampar muy cerca de las pozas.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Zona Arqueológica Tikal (Departamento de Petén)</h3>
+                    <img src="https://lanzateyviaja.com/wp-content/uploads/2020/09/zona-arqueologica-tikal-guatemala.jpg" alt="zona-arqueologica-tikal-guatemala">
+                    <p>
+                        Tikal es uno de los lugares más importantes de Guatemala, una reliquia arquitectónica de la cultura maya. Por algo fue declarado patrimonio de la Unesco en 1979. Se encuentra localizada a 500 kilómetros de la capital del país, en el departamento del Petén,
+                        municipio Flores.
+                    </p>
+
+                    <p>
+                        El emplazamiento tiene un área de 16 kilómetros y allí se encuentran palacios, templos residencias, plataformas, edificios administrativos y ramplas para celebrar el juego de pelota maya. Se encuentra enclavada en un espeso bosque tropical y a muy poca
+                        distancia de otras importantes ciudades prehispánicas como Uaxactún o Yaxha.
+                    </p>
+
+                    <p>
+                        En Petén los lugares turísticos abundan, pero Tikal se destaca de todos ellos. Para ser provechosa la visita, es recomendable que asistas con un guía profesional y experto. Ese servicio y otros, como tiendas de artesanía, lo encontrarás en las adyacencias.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Volcán de Pacaya (Departamento de Escuintla)</h3>
+                    <img src="https://lanzateyviaja.com/wp-content/uploads/2019/07/Volcan-de-pacaya-guatemala.jpg" alt="volcan-de-pacaya-guatemala">
+                    <p>
+                        Los volcanes son frecuentes destinos turísticos en Guatemala. En todo el territorio hay 37 y entre ellos 30 activos. En el municipio de San Vicente de Pacaya, muy cerca de la capital, exactamente a 47 kilómetros, se encuentra este.
+                    </p>
+
+                    <p>
+                        Al llegar a las faldas del cerro hay que pagar una entrada muy económica. Luego emprender la travesía en un trayecto que puede hacerse caminando o a lomos de un caballo, por un pago de aproximadamente 25 dólares. Un paso muy modesto si piensas que ascenderás
+                        a uno de los atractivos naturales de Guatemala.
+                    </p>
+
+                    <p>
+                        En otras épocas se podía llegar hasta el cráter, sin embargo, actualmente el ascenso está restringido debido a la actividad continua del volcán. Como en cualquier recorrido por espacios naturales es recomendable que estés pendiente de la hidratación,
+                        de utilizar zapatos cómodos, de protegerte del sol y de llevar repelentes contra los insectos.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Playa Dorada (Departamento de Izabal)</h3>
+                    <img src="https://lanzateyviaja.com/wp-content/uploads/2019/07/playa-dorada-guatemala.jpg" alt="playa-dorada-guatemala">
+                    <p>
+                        A una distancia aproximada de 225 kilómetros de la capital se ubica uno de los lugares turísticos de Izabal, una de las playas más visitadas por los turistas nacionales y extranjeros. Esto se debe a la belleza de sus costas, a sus arenas plateadas y a
+                        sus aguas turquesas y trasparentes.
+                    </p>
+
+                    <p>
+                        Además del mar, muy cerca desemboca el lago de Izabal e igualmente los diferentes afluentes de los ríos de la sierra las Minas.
+                    </p>
+
+                    <p>
+                        Como muchos sitios turísticos en Guatemala, Playa Dorada está muy bien preparada para la atención del viajero y posee varios y abundante servicios como motos, lanchas y bananas acuáticas. La población residente vive del turismo, sobre todo en la época
+                        de Semana Santa. Muchos se encargan de vender cocos y otros productos alimenticios.
+                    </p>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <center>
+            <p>Sitio web creado por: Roberto Meléndez</p>
+            <small>Todos los derechos reservados &copy; 2021.</small>
+        </center>
+    </footer>
+</body>
+
+</html>

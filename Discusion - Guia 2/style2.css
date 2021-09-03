@@ -1,0 +1,115 @@
+main {
+    padding: 4em 0 0;
+}
+
+#navegacion-entre-paises {}
+
+#navegacion-entre-paises span {
+    font-size: 1.5em;
+}
+
+#navegacion-entre-paises nav {
+    margin: 1em 0 2em;
+}
+
+#navegacion-entre-paises nav ul li {
+    margin: 0 0 1em;
+}
+
+#navegacion-entre-paises nav ul li a {
+    color: black;
+    font-weight: 500;
+    transition: all 1s;
+}
+
+#navegacion-entre-paises nav ul li a svg {
+    transition: all 1s;
+}
+
+#navegacion-entre-paises nav ul li a:hover,
+#navegacion-entre-paises nav ul li a:hover svg {
+    color: #0045ad;
+    fill: #0045ad;
+}
+
+h1 {
+    margin: 1em 0 0.5em;
+}
+
+p {
+    line-height: 1.5;
+    margin: 0 0 2em;
+}
+
+br {
+    margin: 1em 0;
+}
+
+h1,
+h2 {
+    color: black;
+}
+
+.introduction {
+    margin: 2em 0 1em;
+}
+
+.introduction h2 {
+    font-size: 2em;
+    margin: 0 0 0.5em;
+}
+
+.introduction p {
+    text-align: justify;
+}
+
+.historia {
+    margin: 4em 0 1em;
+    text-align: center;
+}
+
+.historia h2,
+.historia h3 {
+    margin: 0 0 1em;
+    text-align: left;
+}
+
+.historia img {
+    margin: 0 auto 2em;
+}
+
+.historia p {
+    text-align: justify;
+}
+
+table {
+    margin: 0 auto;
+}
+
+th,
+td {
+    padding: 0.5em 2em;
+}
+
+caption,
+th {
+    color: #0045ad;
+}
+
+caption {
+    background-color: #0045ad;
+    color: white;
+    padding: 1em 0;
+}
+
+tr {
+    background-color: gainsboro;
+}
+
+tr:first-child {
+    background-color: transparent;
+}
+
+tr:nth-child(odd) {
+    background-color: transparent;
+}

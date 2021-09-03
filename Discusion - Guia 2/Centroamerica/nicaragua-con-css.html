@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nicaragua | Centroamerica</title>
+
+    <!-- ESTILOS DEL MENU Y LA PAGINA PRINCIPAL (HOME/INICIO)-->
+    <link rel="stylesheet" href="../../style.css">
+
+    <!-- ESTILOS PRINCIPAL DE LA PAGINA -->
+    <link rel="stylesheet" href="../style2.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Jquery-->
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+    <!-- FUNCIONALIDAD MENU -->
+    <script src="../../app.js"></script>
+</head>
+
+<body>
+    <header class="">
+        <div class="container menu-desktop">
+            <div class="row space-between align-item-center position-relative">
+                <span class="logo">                    
+                    <a href="https://robertoher76.github.io/">
+                        Lenguajes
+                        <br>
+                        Interpretados
+                        <br>
+                        en el Cliente
+                    </a>
+                </span>
+                <div class="menu-icon">
+                    <div class="line-menu"></div>
+                    <div class="line-menu"></div>
+                    <div class="line-menu"></div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-mobile">
+            <div class="mobile-container">
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <span class="primary-menu-item">
+                                <a href="https://robertoher76.github.io/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                        <path d="M12 6.453l9 8.375v9.172h-6v-6h-6v6h-6v-9.172l9-8.375zm12 5.695l-12-11.148-12 11.133 1.361 1.465 10.639-9.868 10.639 9.883 1.361-1.465z"/>
+                                    </svg>
+                                    &nbsp;
+                                    Inicio
+                                </a>
+                            </span>
+                        </li>
+                        <li>
+                            <div class="practica">
+                                <span class="menu-item primary-menu-item">                                    
+                                    <a href="JavaScript:void(0);">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="36" height="36" viewBox="0 0 26 26">
+                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-8 10.199l-3.64 1.801 3.64 1.796v2.204l-6-2.935v-2.131l6-2.934v2.199zm8 2.866l-6 2.935v-2.204l3.64-1.796-3.64-1.801v-2.199l6 2.935v2.13z"/>
+                                        </svg>
+                                        &nbsp;
+                                        Practica #1: HTML
+                                    </a>                              
+                                </span>
+                                <div class="ejercicios">
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/programa-fav.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;
+                                                Programa Favorito
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/el-salvador.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;
+                                                Centroamérica
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="practica">
+                                <span class="menu-item primary-menu-item">                                    
+                                    <a href="JavaScript:void(0);">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="36" height="36" viewBox="0 0 26 26">
+                                            <path d="M23 10.826v2.349c-1.562 0-3 1.312-3 2.857 0 2.181 1.281 5.968-6 5.968v-2.002c4.917 0 3.966-1.6 3.966-3.967 0-2.094 1.211-3.5 2.278-4.031-1.067-.531-2.278-1.438-2.278-3.312 0-2.372.94-4.692-3.966-4.686v-2.002c7.285 0 6 4.506 6 6.688 0 1.544 1.438 2.138 3 2.138zm-19-2.138c0-2.182-1.285-6.688 6-6.688v2.002c-4.906-.007-3.966 2.313-3.966 4.686 0 1.875-1.211 2.781-2.278 3.312 1.067.531 2.278 1.938 2.278 4.031 0 2.367-.951 3.967 3.966 3.967v2.002c-7.281 0-6-3.787-6-5.969 0-1.545-1.438-2.857-3-2.857v-2.349c1.562.001 3-.593 3-2.137z"/>
+                                        </svg>
+                                        &nbsp;
+                                        Practica #2: CSS
+                                    </a>                              
+                                </span>
+                                <div class="ejercicios">
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/programa-fav-con-css.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;
+                                                Programa Favorito con CSS
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/el-salvador-con-css.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;
+                                                Centroamérica con CSS
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/biografia.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;                                        
+                                                Biografía con CSS
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main role="main">
+        <section id="navegacion-entre-paises">
+            <div class="container">
+                <span class="logo">Países Centroamericanos</span>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="https://robertoher76.github.io/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                </svg>&nbsp;Inicio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/el-salvador-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                </svg>&nbsp;El Salvador
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/guatemala-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                </svg>&nbsp;Guatemala
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/honduras-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                            </svg>&nbsp;Honduras
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/nicaragua-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                </svg>&nbsp;Nicaragua
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/costa-rica-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                            </svg>&nbsp;Costa Rica
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <article class="container">
+            <h1>Nicaragua</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/800px-Flag_of_Nicaragua.svg.png" alt="bandera-de-nicaragua" style="width: 50%;">
+
+            <section class="introduction">
+                <h2>Introducción</h2>
+                <p>
+                    <strong>Nicaragua</strong>, oficialmente llamado <strong>República de Nicaragua</strong>, es un país soberano ubicado en Centroamérica. Su capital es la ciudad de Managua. Está compuesta por quince departamentos y dos regiones autónomas:
+                    Costa Caribe Norte y Costa Caribe Sur, cuyas capitales son Puerto Cabezas y Bluefields, respectivamente. Se ubica en el hemisferio norte, entre la línea ecuatorial y el trópico de Cáncer, aproximadamente entre los 11° y los 15° de
+                    latitud Norte y respecto al meridiano de Greenwich, entre los 83° y los 88° de longitud Oeste.
+                </p>
+                <p>
+                    El territorio de Nicaragua tiene una superficie aproximada de 130 370 km²,1 constituyéndose con ello como el país más extenso de Centroamérica. Nicaragua cuenta con una población de 6 595 674 habitantes (2020). Limita al norte con Honduras, al sur con
+                    Costa Rica, al oeste con el océano Pacífico y al este con el mar Caribe. En cuanto a límites marítimos, en el océano Pacífico colinda con El Salvador, Honduras y Costa Rica; mientras que en el mar Caribe colinda con Honduras, Colombia
+                    y Costa Rica.
+                </p>
+            </section>
+            <section class="historia">
+                <h2>Historia</h2>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Coat_of_arms_of_Nicaragua.svg/800px-Coat_of_arms_of_Nicaragua.svg.png" alt="escudo-de-nicaragua" style="width: 25%;">
+
+                <p>
+                    En la costa suroriental nicaragüense, se localiza el "conchero" (cúmulo de valvas) conocido como "Angie", donde se encuentran los vestigios de presencia humana, más antiguos conocidos, datados en 8 mil años. Se sabe de asentamientos indígenas en la región
+                    de la costa del océano Pacífico nicaragüense que datan del 6000 a. C. El yacimiento de Acahualinca (entre el 232 y el 8 a. C.) es posterior, asimismo se conocen otras evidencias arqueológicas, principalmente artículos de cerámica y
+                    estatuarios de piedra volcánica, como los hallados en la isla de Zapatera.
+                </p>
+
+                <h3>Colonia española</h3>
+
+                <p>
+                    El 21 de abril de 1524, en el actual territorio de Nicaragua, fue fundada la ciudad de Granada y el 19 de junio de 1524 la ciudad de León. Ambas fueron fundadas por Francisco Hernández de Córdoba, enviado por Pedro Arias de Ávila, entonces gobernador
+                    de Castilla de Oro, en el actual territorio de Panamá. En 1528, la Corona española erigió la provincia de Nicaragua, y se solicitó establecer si el territorio de la villa de Bruselas (actualmente en territorio de Costa Rica), pertenecía
+                    a la provincia de Nicaragua (la nueva circunscripción), o si permanecía bajo la autoridad de Castilla del Oro.
+                </p>
+                <p>
+                    Una Real Cédula del 21 de abril de 1529 resolvió el conflicto a favor de la Provincia de Nicaragua, cuando ya la villa de Bruselas había dejado de existir. Posteriormente la provincia de Nicaragua pasó a depender de la Audiencia de Panamá hasta 1543 que
+                    pasa a depender de la Audiencia de Guatemala.
+                </p>
+                <p>
+                    En 1554, con la conquista del Reino de Nicoya se crea la Alcaldía Mayor o Corregimiento de la provincia de Nicoya, puertos de Chira y Paro. La Intendencia de León fue creada por Real Cédula del 23 de diciembre de 1786, con la unión de la Alcaldía Mayor
+                    de Nicoya y la Gobernación de Nicaragua. Formando parte de la Capitanía General de Guatemala, dependiente del Virreinato de la Nueva España.
+                </p>
+                <p>
+                    En 1812, las Cortes de Cádiz erigieron la provincia de Nicaragua y Costa Rica (separada de la provincia de Guatemala), y con cabecera en la ciudad de León. Esta provincia duró hasta 1814, año en que se restableció el reino de Guatemala. En 1820, al restablecerse
+                    el régimen constitucional, resurgió la provincia de Nicaragua y Costa Rica, que estaba dividida en siete partidos:
+                </p>
+                <ul>
+                    <li>Costa Rica</li>
+                    <li>El Realejo</li>
+                    <li>Granada</li>
+                    <li>Nicoya y Guanacaste</li>
+                    <li>León</li>
+                    <li>Nueva Segovia.</li>
+                    <li>Rivas</li>
+                </ul>
+
+
+                <h2>Independencia</h2>
+
+                <p>
+                    Nicaragua formaba parte de la española Capitanía General de Guatemala, que comprendía los territorios desde Costa Rica hasta la actual Chiapas (en México). En Sudamérica, y durante cierto periodo en México, los mestizos y criollos americanos (españoles
+                    nacidos en el Nuevo Mundo) iniciaron sangrientas guerras contra la Corona hasta conseguir su independencia.
+                </p>
+                <p>
+                    Con España fuera, Nicaragua y toda Centroamérica decidió anexarse al naciente Imperio mexicano, pero este duró muy pocos años. Entonces los pequeños países del istmo decidieron formar la Federación de Estados Centroamericanos, la cual se disolvió debido
+                    a los intereses particulares de los líderes de cada una de las provincias. Fue entonces que el 30 de abril de 1838, Nicaragua ingresó en la historia como una república independiente.
+                </p>
+                <p>
+                    La independencia de Nicaragua ocurrió durante septiembre de 1821, al observar como otras regiones españolas ganaban la guerra de la independencia, los líderes nicaragüenses comenzaron un proceso de negociación, al redactar un acta de independencia que
+                    fue reconocida por los jefes de la Corona. Entre las personas que promovieron la independencia centroamericana destacaron dos nicaragüenses: el presbítero Tomás Ruiz Romero y el jurisconsulto Miguel Larreynaga, recordado por su efigie
+                    en una emisión de los billetes de diez córdobas. La independencia trajo consigo un enfrentamiento por el poder entre las ciudades de León y Granada y sus respectivos partidos políticos (los democráticos o liberales en León y los legitimistas
+                    o conservadores en Granada). El mayor beneficio fue que dejaron de pagar a la corona española impuesto alguno.
+                </p>
+
+                <br>
+                <br>
+
+                <h2>Organización territorial</h2>
+
+                <p>
+                    Nicaragua se divide en 15 departamentos y 2 regiones autónomas, los departamentos hoy en día solo tienen propósitos meramente administrativos. No tienen autoridades, ni propias ni delegadas del poder central. Los departamentos se dividen a su vez en municipios
+                    regidos por un alcalde y un concejo municipal.
+                </p>
+                <img src="http://www.iidh.ed.cr/multic/Controles/Galeria/img.ashx?tipo=0&imgid=904bfac4-9266-40b8-9524-6cb74775827e">
+
+                <br>
+                <br>
+
+                <h2>Lugares turísticos de Nicaragua</h2>
+                <p>
+                    ¿Cuáles son los mejores lugares turísticos de Nicaragua? Descubre todo lo que no te puedes perder: Playas paradisiacas, islas caribeñas, reservas naturales y otros destinos. Revisa la lista a continuación!
+                </p>
+                <div>
+                    <h3>Granada</h3>
+                    <img src="https://enviajes.cl/wp-content/uploads/2021/04/Nicaragua-Granada-Enviajes-1024x681.jpg?ezimgfmt=ng%3Awebp%2Fngcb2%2Frs%3Adevice%2Frscb2-1" alt="granada" style="width: 50%;">
+                    <p>
+                        Uno de los más fascinantes lugares turísticos de Nicaragua, una ciudad donde disfrutar caminando entre hermosas arquitecturas coloniales y neoclásicas, la mayoría hoy restauradas y transformadas en restaurantes y hoteles. Sumado al atractivo de sus arquitecturas,
+                        Granada encanta con sus entornos naturales, figurando escenarios como el Lago Cocibolca con sus 360 pequeñas islas de origen volcánico y el Parque Nacional Volcán Mombacho, con exuberantes paisajes tropicales y vistas privilegiadas
+                        en altura hacia la ciudad.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>León</h3>
+                    <img src="https://enviajes.cl/wp-content/uploads/2021/04/Nicaragua-lugares-Leon-Enviajes-1024x686.jpg?ezimgfmt=ng:webp/ngcb2" alt="cayos-cochinos">
+                    <p>
+                        La histórica rival de Granada, una ciudad donde también abundan arquitecturas coloniales de interés, destacando un amplio despliegue de iglesias y capillas barrocas, entre las cuales se impone la Insigne y Real Basílica Catedral, declarada Patrimonio
+                        de la Humanidad por la UNESCO. En sus alrededores destacan las Ruinas de León Viejo, una de las primeras ciudades coloniales españolas del continente, sepultada por años bajo las cenizas del Volcán Momotombo. Complementan los atractivos
+                        de sus entornos, hermosos escenarios naturales, entre los que figuran la Cordillera de Los Maribios con su conjunto de volcanes y las playas de Poneloya y Las Peñitas hacia el Océano Pacífico.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Isla de Ometepe</h3>
+                    <img src="https://enviajes.cl/wp-content/uploads/2021/05/Nicaragua-lugares-Ometepe-Enviajes-1024x683.jpg?ezimgfmt=ng:webp/ngcb2" alt="Ruinas-de-Copan-Zona-Arquiologica-Honduras">
+                    <p>
+                        Declarada Reserva de la Biósfera por la UNESCO, corresponde a la isla volcánica más grande del Lago Cocibolca o Gran Lago de Nicaragua, escenario de impresionantes paisajes, conformados por sus dos imponentes volcanes, playas con oleaje y reservas naturales.
+                        Su localidad más importante y puerta de acceso corresponde a Moyogalpa, un pueblo que si bien es pequeño cuenta con una amplia oferta turística, encontrándose hoteles, restaurantes, bares y otros servicios. Desde el lugar fácilmente
+                        se llega a todos los parajes de la isla, entre los cuales figuran los bosques de la Reserva Natural de Charco Verde, el pintoresco pueblo de Altagracia y playas rodeadas de exuberante vegetación y ricas en biodiversidad de aves
+                        como Santo Domingo.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Archipiélago de Solentiname</h3>
+                    <img src="https://enviajes.cl/wp-content/uploads/2021/05/Nicaragua-lugares-Solentiname-Enviajes-1024x686.jpg?ezimgfmt=ng:webp/ngcb2" alt="Puerto-Cortez-Cortes-Honduras">
+                    <p>
+                        Conjunto de 36 islas situadas en el Lago Cocibolca, características por sus exuberantes escenarios naturales, exóticas especies de pájaros, playas con oleaje y rincones totalmente vírgenes y deshabitados Entre las islas solo se encuentran habitadas Mancarrón,
+                        San Fernando y La Venada, con solo las dos primeras ofreciendo servicios turísticos, todas ellas características por el calmo estilo de vida de sus habitantes, donde pareciera que la modernidad prácticamente no hubiese llegado.
+                        Vale destacar las comunidades de pintores que habitan estas islas, quienes han desarrollado un estilo propio y único conocido como Primitivistas de Solentiname.
+                    </p>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <center>
+            <p>Sitio web creado por: Roberto Meléndez</p>
+            <small>Todos los derechos reservados &copy; 2021.</small>
+        </center>
+    </footer>
+</body>
+
+</html>

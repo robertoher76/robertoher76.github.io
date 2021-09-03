@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Costa Rica | Centroamerica</title>
+
+    <!-- ESTILOS DEL MENU Y LA PAGINA PRINCIPAL (HOME/INICIO)-->
+    <link rel="stylesheet" href="../../style.css">
+
+    <!-- ESTILOS PRINCIPAL DE LA PAGINA -->
+    <link rel="stylesheet" href="../style2.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Jquery-->
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+    <!-- FUNCIONALIDAD MENU -->
+    <script src="../../app.js"></script>
+</head>
+
+<body>
+    <header class="">
+        <div class="container menu-desktop">
+            <div class="row space-between align-item-center position-relative">
+                <span class="logo">                    
+                    <a href="https://robertoher76.github.io/">
+                        Lenguajes
+                        <br>
+                        Interpretados
+                        <br>
+                        en el Cliente
+                    </a>
+                </span>
+                <div class="menu-icon">
+                    <div class="line-menu"></div>
+                    <div class="line-menu"></div>
+                    <div class="line-menu"></div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-mobile">
+            <div class="mobile-container">
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <span class="primary-menu-item">
+                                <a href="https://robertoher76.github.io/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                        <path d="M12 6.453l9 8.375v9.172h-6v-6h-6v6h-6v-9.172l9-8.375zm12 5.695l-12-11.148-12 11.133 1.361 1.465 10.639-9.868 10.639 9.883 1.361-1.465z"/>
+                                    </svg>
+                                    &nbsp;
+                                    Inicio
+                                </a>
+                            </span>
+                        </li>
+                        <li>
+                            <div class="practica">
+                                <span class="menu-item primary-menu-item">                                    
+                                    <a href="JavaScript:void(0);">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="36" height="36" viewBox="0 0 26 26">
+                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-8 10.199l-3.64 1.801 3.64 1.796v2.204l-6-2.935v-2.131l6-2.934v2.199zm8 2.866l-6 2.935v-2.204l3.64-1.796-3.64-1.801v-2.199l6 2.935v2.13z"/>
+                                        </svg>
+                                        &nbsp;
+                                        Practica #1: HTML
+                                    </a>                              
+                                </span>
+                                <div class="ejercicios">
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/programa-fav.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;
+                                                Programa Favorito
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/el-salvador.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;
+                                                Centroamérica
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="practica">
+                                <span class="menu-item primary-menu-item">                                    
+                                    <a href="JavaScript:void(0);">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="36" height="36" viewBox="0 0 26 26">
+                                            <path d="M23 10.826v2.349c-1.562 0-3 1.312-3 2.857 0 2.181 1.281 5.968-6 5.968v-2.002c4.917 0 3.966-1.6 3.966-3.967 0-2.094 1.211-3.5 2.278-4.031-1.067-.531-2.278-1.438-2.278-3.312 0-2.372.94-4.692-3.966-4.686v-2.002c7.285 0 6 4.506 6 6.688 0 1.544 1.438 2.138 3 2.138zm-19-2.138c0-2.182-1.285-6.688 6-6.688v2.002c-4.906-.007-3.966 2.313-3.966 4.686 0 1.875-1.211 2.781-2.278 3.312 1.067.531 2.278 1.938 2.278 4.031 0 2.367-.951 3.967 3.966 3.967v2.002c-7.281 0-6-3.787-6-5.969 0-1.545-1.438-2.857-3-2.857v-2.349c1.562.001 3-.593 3-2.137z"/>
+                                        </svg>
+                                        &nbsp;
+                                        Practica #2: CSS
+                                    </a>                              
+                                </span>
+                                <div class="ejercicios">
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/programa-fav-con-css.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;
+                                                Programa Favorito con CSS
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/el-salvador-con-css.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;
+                                                Centroamérica con CSS
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div class="ejercicio">
+                                        <span class="secondary-menu-item">
+                                            <a href="https://robertoher76.github.io/biografia.html">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                                </svg>
+                                                &nbsp;                                        
+                                                Biografía con CSS
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main role="main">
+        <section id="navegacion-entre-paises">
+            <div class="container">
+                <span class="logo">Países Centroamericanos</span>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="https://robertoher76.github.io/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                </svg>&nbsp;Inicio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/el-salvador-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                </svg>&nbsp;El Salvador
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/guatemala-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                </svg>&nbsp;Guatemala
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/honduras-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                            </svg>&nbsp;Honduras
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/nicaragua-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                    <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                                </svg>&nbsp;Nicaragua
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://robertoher76.github.io/costa-rica-con-css.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                <path d="M22.548 9l.452-2h-5.364l1.364-6h-2l-1.364 6h-5l1.364-6h-2l-1.364 6h-6.184l-.452 2h6.182l-1.364 6h-5.36l-.458 2h5.364l-1.364 6h2l1.364-6h5l-1.364 6h2l1.364-6h6.185l.451-2h-6.182l1.364-6h5.366zm-8.73 6h-5l1.364-6h5l-1.364 6z"/>
+                            </svg>&nbsp;Costa Rica
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <article class="container">
+            <h1>Costa Rica</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/800px-Flag_of_Costa_Rica.svg.png" alt="bandera-de-costa-rica" style="width: 50%;">
+
+            <section class="introduction">
+                <h2>Introducción</h2>
+                <p>
+                    <strong>Costa Rica</strong>, oficialmente llamado <strong>República de Costa Rica</strong>, es una nación soberana, organizada como una república presidencialista unitaria compuesta por 7 provincias. Ubicada en América Central, posee
+                    un territorio con un área total de 51 100 km². Limita con Nicaragua al norte, el mar Caribe al este, Panamá al sureste y el océano Pacífico al oeste. En cuanto a los bordes marítimos, colinda con Panamá, Nicaragua, Colombia y Ecuador.
+                    Su capital, centro político y económico es San José, y su idioma oficial es el español.​ Es el país más meridional de América del Norte, su punto más austral es la Isla del Coco.
+                </p>
+                <p>
+                    El nombre «Costa Rica» para designar al territorio nacional apareció por primera vez en una cédula real fechada el 17 de diciembre de 1539 y enviada a la Audiencia de Panamá en 1543, en la que el rey español Carlos V otorgó un permiso especial a Diego
+                    Gutiérrez y Toledo para que realizase la conquista y colonización del territorio costarricense, que en adelante se denominó «Nuevo Cartago y Costa Rica»
+                </p>
+            </section>
+            <section class="historia">
+                <h2>Historia</h2>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Coat_of_arms_of_Costa_Rica.svg/548px-Coat_of_arms_of_Costa_Rica.svg.png" alt="escudo-de-costa-rica" style="width: 25%;">
+
+                <p>
+                    La evidencia más antigua de ocupaciones humanas en Costa Rica se asocia a la llegada de grupos de cazadores-recolectores alrededor de 12.200 años, con el hallazgo en el cantón de Siquirres de 66 asentamientos humanos donde se recuperaron elementos funerarios,
+                    petroglifos, basamentos de viviendas, calzadas, herramientas de piedra, alfarería, cerámica, los cuales datan del Paleoindio y que corresponden a la etnia cabécar, constituyéndose en el sitio arqueológico más antiguo de Centroamérica.​
+                    De 10 000 a 7000 años a. C. datan antiguas evidencias arqueológicas (fabricación de herramientas de piedra) localizadas en el Valle de Turrialba, con presencia de puntas de lanza tipo clovis (norteamericana) y cola de pez (sudamericana).​
+                    La agricultura incipiente aparece hacia 5000 a. C., principalmente dada por tubérculos y raíces. Para el primer y segundo milenios a. C. ya existían comunidades agrícolas sedentarias, pequeñas y dispersas. Hacia 2000-3000 a. C., aparece
+                    el uso más antiguo que se conoce de la cerámica, con fragmentos de ollas, vasijas cilíndricas, platones, tecomates y otras formas de vasijas, decoradas con técnicas como incisos o acanaladuras, estampados y modelados.
+                </p>
+
+                <h3>Colonia española</h3>
+
+                <p>
+                    Cristóbal Colón llegó a la costa atlántica de Costa Rica el 25 de septiembre de 1502, en su cuarto viaje, visitando la isla Uvita (llamada Quiribrí por los indígenas y bautizada La Huerta por Colón), y el poblado de Cariay. Según los diarios escritos
+                    por Colón, en el territorio existía mucho oro, lo que impulsó a los aventureros a emprender otras exploraciones y sirvió de polo de atracción para los colonizadores. A las expediciones iniciales de Diego de Nicuesa y Alonso de Ojeda
+                    sobre el litoral atlántico, siguió la de Vasco Núñez de Balboa, quien descubrió el Océano Pacífico en 1513 luego de atravesar el istmo de Panamá. En 1519, Gaspar de Espinosa junto a Juan de Castañeda, Alonso Martín de Don Benito y
+                    Hernán Ponce de León descubrieron el golfo Dulce y el golfo de Nicoya.​ Gil González Dávila recorrió el litoral Pacífico costarricense, arribó a Nicoya y continuó hacia Nicaragua, donde fue obsequiado ricamente por el cacique Nicarao.
+
+                </p>
+                <p>
+                    Las riquezas encontradas por González Dávila hicieron que el gobernador de Panamá, Pedrarias Dávila, enviara una misión al mando de Francisco Hernández de Córdoba, quien bordeando el litoral Pacífico desembarcó en el río Grande de Tárcoles y fundó la
+                    Villa de Bruselas en 1524, siendo esta la primera población hispana en territorio costarricense. En 1534 Felipe Gutiérrez obtuvo permiso para conquistar la Gobernación de Veragua y en 1538, Hernán Sánchez de Badajoz se convirtió en
+                    adelantado y mariscal de Costa Rica, fundó la efímera ciudad de Badajoz en Talamanca y el puerto de San Marcos. En 1540, Diego de Gutiérrez recorrió el litoral caribeño hasta llegar al río San Juan. Fundó las poblaciones de Santiago
+                    y San Francisco en el territorio de Cartago. Apresó luego a los caciques Camaquire y Cocorí para pedir recompensa (a pesar de que fue bien recibido por los aborígenes), y tras internarse en las llanuras de Santa Clara para salir a
+                    la Cordillera Central, fue emboscado y murió. Tras esto, no hubo más expediciones al país por un lapso de diez años.
+                </p>
+
+
+                <h2>Independencia</h2>
+                <p>
+                    Costa Rica se independizó del Imperio español el 15 de septiembre de 1821, junto al resto de la Capitanía General de Guatemala. Después de recibir el pronunciamiento de la ciudad de León, establecido en el "Acta de los Nublados", el ayuntamiento de Cartago
+                    emitió el acta del 29 de octubre, declaró la independencia y, el 1 de diciembre, una Junta de Legados promulgó el Pacto de Concordia, la primera Constitución, en la que constituyó su propia forma de gobierno, a cargo de una Junta Superior
+                    Gubernativa, se reconocieron los derechos civiles de los habitantes, se abolió la esclavitud y se proclamó la libertad de comercio.​ Costa Rica formó parte de la República Federal de Centroamérica (1823), pero su participación (1823-1842)
+                    fue bastante marginal. Costa Rica buscó solucionar sus problemas por sí misma: para 1825, contaba con su propia moneda, Jefe de Estado, Asamblea Legislativa y Corte Suprema de Justicia. Entre 1825 y 1833, mientras la República Federal
+                    se debate en la anarquía política y la guerra civil (1826-1829), Costa Rica vive un periodo de relativa estabilidad política. El Estado ganó territorio con la anexión del Partido de Nicoya al país, el 25 de julio de 1824, pero también
+                    perdió con la ocupación de Bocas del Toro de 1836 por la República de la Nueva Granada.
+                </p>
+
+                <br>
+                <br>
+                <h2>Organización territorial</h2>
+
+                <p>
+                    La división territorial de Costa Rica comprende 7 provincias divididas en 82 cantones y estos a su vez, subdivididos en 488 distritos colegiados.
+                </p>
+                <img src="https://i.pinimg.com/originals/55/68/5a/55685ad4baaaf4e1a8a389deb799fcd5.gif" style="width: 50%;">
+
+                <br>
+                <br>
+
+                <h2>Lugares turísticos de Costa Rica</h2>
+                <p> Descubre los mejores lugares turísticos de Costa Rica, un país privilegiado en escenarios naturales, donde disfrutar de paraísos del ecoturismo y algunas de las mejores playas del continente. Revisa la lista a continuación!
+                </p>
+                <div>
+                    <h3>Rio Celeste</h3>
+                    <img src="https://enviajes.cl/wp-content/uploads/2016/07/Lugares-turisticos-de-Costa-Rica-Rio-Celeste.jpg?ezimgfmt=ng:webp/ngcb2" alt="lago-de-coatepeque-el-salvador" style="width: 50%;">
+                    <p>
+                        Situado dentro del Parque Nacional Volcán Tenorio, en la provincia de Alajuela, corresponde a un río de aguas termales, que debe su fama a las intensas tonalidades turquesas de sus aguas, resultantes de un fenómeno óptico dado por la dispersión de la
+                        luz solar y la alta concentración de silicatos de aluminio.
+                    </p>
+                    <p>
+                        El recorrido por el río, está rodeado de atractivos turísticos, pasando por cascadas, lagunas y miradores, además de ofrecer espectaculares vistas al volcán Tenorio y al exuberante bosque tropical que se encuentra en sus entornos.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Reserva Biológica Bosque Nuboso Monteverde</h3>
+                    <img src="https://enviajes.cl/wp-content/uploads/2016/07/Lugares-turisticos-de-Costa-Rica-Monteverde.jpg?ezimgfmt=ng:webp/ngcb2" alt="playa-el-tunco">
+                    <p>
+                        Otra de las maravillas naturales, que no podría quedar fuera de ningún ranking de los mejores lugares turísticos de Costa Rica, corresponde a esta inmensa reserva biológica situada en la provincia de Puntarenas, la cual extendiéndose por 10 000 hectáreas,
+                        da protección a los bosques nubosos de la Sierra de Tilarán. Uno de los principales atractivos de la reserva, es su amplia ruta de senderos, los cuales permiten internarse con relativa facilidad, a través de los exóticos paisajes
+                        que ofrecen los bosques nubosos, donde la niebla se concentra a la altura de la vegetación. Además esta reserva, es uno de los mejores destinos de Costa Rica para el avistamiento de aves, siendo el gran protagonista el majestuoso
+                        quetzal.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Parque Nacional Isla del Coco</h3>
+                    <img src="https://enviajes.cl/wp-content/uploads/2016/07/Lugares-turisticos-de-Costa-Rica-Isla-Coco.jpg?ezimgfmt=ng:webp/ngcb2" alt="ruta-de-las-flores-el-salvador">
+                    <p>
+                        Parte de la provincia de Puntarenas, esta isla y parque nacional de 99 725 hectáreas en el Pacífico, es hogar de impresionantes escenarios naturales, con bosques húmedos tropicales, enormes cascadas, playas de aguas turquesas, cavernas acuáticas y acantilados
+                        que superan los 180 metros de altura.
+                    </p>
+                    <p>
+                        Declarada Patrimonio de la Humanidad por la UNESCO, esta paradisiaca isla también es famosa por sus impresionantes fondos marinos, considerados entre los mejores del planeta para practicar buceo, dada la transparencia de las aguas y la facilidad de encuentro
+                        con grandes animales marinos, tales como ballenas, tiburones, manta rayas gigantes y delfines azules.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Jacó</h3>
+                    <img src="https://enviajes.cl/wp-content/uploads/2016/07/Lugares-turisticos-de-Costa-Rica-Jaco.jpg?ezimgfmt=ng:webp/ngcb2" alt="volcan-ilamatepec-santa-ana">
+                    <p>
+                        Esta pequeña ciudad costera en la provincia de Puntarenas, corresponde a uno de los más visitados lugares turísticos de Costa Rica dado su cercanía con la capital San José, hogar de una playa de aproximadamente 4 kilómetros de largo, donde se concentran
+                        algunos de los mejores puntos de surf del país.
+                    </p>
+                    <p>
+                        Jacó concentra una animada oferta de vida nocturna, restaurantes y actividades recreativas, como los son paseos en cuadriciclo, kayak, rafting, safaris, paseos a caballo, y surf. En sus cercanías, se puede disfrutar de privilegiados puntos de contacto
+                        con la naturaleza, como lo son el Parque Nacional Carara, el Parque Nacional Manuel Antonio o el Refugio Nacional de Vida Silvestre Playa Hermosa.
+                    </p>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <center>
+            <p>Sitio web creado por: Roberto Meléndez</p>
+            <small>Todos los derechos reservados &copy; 2021.</small>
+        </center>
+    </footer>
+</body>
+
+</html>
